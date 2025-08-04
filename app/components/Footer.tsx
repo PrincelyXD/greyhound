@@ -4,7 +4,7 @@ export const Footer = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           <div>
-            <a href="/">
+            <a href="#">
               <img src="/primary-logo.png" className="h-[90px]" alt="GREYHOUND LOGO" />
             </a>
             <p className="text-gray-300 mb-5 text-sm leading-relaxed">
@@ -13,7 +13,7 @@ export const Footer = () => {
             </p>
             <div className="flex space-x-4">
               <a
-                href="/"
+                href="#"
                 className="text-gray-400 hover:text-white transition-colors bg-gray-900/50 backdrop-blur-lg p-2.5 rounded-full border border-gray-800/30"
               >
                 <svg
@@ -30,7 +30,7 @@ export const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="#"
                 className="text-gray-400 hover:text-white transition-colors bg-gray-900/50 backdrop-blur-lg p-2.5 rounded-full border border-gray-800/30"
               >
                 <svg
@@ -43,7 +43,7 @@ export const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="#"
                 className="text-gray-400 hover:text-white transition-colors bg-gray-900/50 backdrop-blur-lg p-2.5 rounded-full border border-gray-800/30"
               >
                 <svg
@@ -60,7 +60,7 @@ export const Footer = () => {
                 </svg>
               </a>
               <a
-                href="/"
+                href="#"
                 className="text-gray-400 hover:text-white transition-colors bg-gray-900/50 backdrop-blur-lg p-2.5 rounded-full border border-gray-800/30"
               >
                 <svg
@@ -92,7 +92,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Integrations
@@ -110,7 +110,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Updates
@@ -124,7 +124,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Documentation
@@ -133,7 +133,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Tutorials
@@ -142,7 +142,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Blog
@@ -151,7 +151,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Support
@@ -165,7 +165,7 @@ export const Footer = () => {
             <ul className="space-y-3">
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   About
@@ -174,7 +174,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Careers
@@ -183,7 +183,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Contact
@@ -192,7 +192,7 @@ export const Footer = () => {
               </li>
               <li>
                 <a
-                  href="/"
+                  href="#"
                   className="text-gray-300 hover:text-white transition-colors inline-block relative group"
                 >
                   Legal
@@ -208,21 +208,21 @@ export const Footer = () => {
           </p>
           <div className="flex space-x-6  mt-4 md:mt-0">
             <a
-              href="/"
+              href="#"
               className="text-gray-400 hover:text-white transition-colors text-xs relative group"
             >
               Privacy Policy
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-400 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a
-              href="/"
+              href="#"
               className="text-gray-400 hover:text-white transition-colors text-xs relative group"
             >
               Terms of Service
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-400 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a
-              href="/"
+              href="#"
               className="text-gray-400 hover:text-white transition-colors text-xs relative group"
             >
               Cookie Policy

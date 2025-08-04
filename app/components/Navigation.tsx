@@ -33,7 +33,7 @@ export const Navigation = () => {
 
 
         <div className="flex justify-between items-center h-[56px] mt-5 ">
-          <a href="/" className="flex items-center group ">
+          <a href="#" className="flex items-center group ">
           <img src="primary-logo.png" alt="G"  className="h-[70px]  group-hover:rotate-[-20deg] transition-transform duration-300 ease-in "/>
             <img src="/reyhound.png" className=" h-[120px] -ml-3 " alt="Greyhound" />
           </a>
