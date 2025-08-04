@@ -26,11 +26,11 @@ export const metadata: Metadata = {
     title: "Greyhound – Smarter Systems for Real Estate Excellence",
     description:
       "Greyhound transforms how estate companies operate—offering end-to-end systems for sales, realtor collaboration, payment plans, and document workflows.",
-    url: "https://greyhound.app", // Replace with your actual domain
+    url: "https://greyhound-steel.vercel.app/", 
     siteName: "Greyhound",
     images: [
       {
-        url: "https://greyhound.app/og-banner.png", // Update to your actual OG image path
+        url: "https://greyhound-steel.vercel.app/primary-logo.png", 
         width: 1200,
         height: 630,
         alt: "Greyhound – Real Estate SaaS Platform",
@@ -44,8 +44,8 @@ export const metadata: Metadata = {
     title: "Greyhound – Reinventing Real Estate Operations",
     description:
       "Explore Greyhound: the all-in-one platform for real estate companies to streamline client management, payments, referrals, and realtor interactions.",
-    images: ["https://greyhound.app/og-banner.png"], // Replace with actual path
-    creator: "@greyhound_saas", // Replace with actual handle if available
+    images: ["https://greyhound-steel.vercel.app/primary-logo.png"], 
+    creator: "@greyhound_saas", 
   },
 };
 
