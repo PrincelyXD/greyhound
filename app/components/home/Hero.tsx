@@ -4,6 +4,7 @@
 import Typewriter from "typewriter-effect";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 import BlurText from "@/app/blocks/TextAnimations/BlurText/BlurText";
+import Link from "next/link";
 export const Hero = () => {
   return (
     <section className="relative pt-24 pb-16 md:pt-36 md:pb-24 overflow-hidden">
@@ -19,41 +20,44 @@ export const Hero = () => {
       ></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-10 lg:px-8 relative bg-[url('/lines.svg')] bg-cover bg-center">
         <div className="text-center ">
-          <span className="uppercase font-manrope block text-xs my-5 text-blue-400 tracking-[1px]">
-            <Typewriter
-              options={{
-                strings: [
-                  "One Platform. Unmatched Experience.",
-                  "Smarter Real Estate. Seamless Execution.",
-                  "The Engine Behind Modern Real Estate.",
-                  "Next-Gen Tools for Real-World Estates.",
-                ],
-                autoStart: true,
-                loop: true,
-                delay: 80,
-                deleteSpeed: 30,
-              }}
-            />
-          </span>
-          <h1 className="text-4xl font-manrope text-white md:text-5xl lg:text-6xl font-bold mb-6  tracking-tight">
-            <span className="bg-gradient-to-r font-extrabold  from-blue-400 via-violet-400 to-indigo-400 text-transparent bg-clip-text">
-              Revolutionizing
-            </span>
-            <br />
+        <span className="uppercase font-manrope block text-xs my-5 text-blue-400 tracking-[1px]">
+  <Typewriter
+    options={{
+      strings: [
+        "One Agency. Infinite Possibilities.",
+        "Building Web, Mobile & Software Solutions.",
+        "Crafting Scalable, Modern Applications.",
+        "Turning Ideas Into Powerful Digital Products.",
+        "Your Vision, Our Code.",
+      ],
+      autoStart: true,
+      loop: true,
+      delay: 80,
+      deleteSpeed: 30,
+    }}
+  />
+</span>
+<h1 className="text-4xl font-manrope text-white md:text-5xl lg:text-6xl font-bold mb-6 tracking-tight">
+  <span className="bg-gradient-to-r font-extrabold from-blue-400 via-violet-400 to-indigo-400 text-transparent bg-clip-text">
+    Revolutionizing
+  </span>
+  <br />
 
-            <BlurText
-              text="Real Estate Management"
-              delay={150}
-              animateBy="words"
-              direction="top"
-              className=" flex justify-center"
-            />
-          </h1>
-          <p className="text-lg md:text-xl font-manrope font-extralight text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
-            The complete platform built specifically for modern real estate
-            companies to streamline operations, manage transactions, and boost
-            revenue.
-          </p>
+  <BlurText
+    text="Digital Product Development"
+    delay={150}
+    animateBy="words"
+    direction="top"
+    className="flex justify-center"
+  />
+</h1>
+
+<p className="text-lg md:text-xl font-manrope font-extralight text-gray-300 max-w-3xl mx-auto mb-8 leading-relaxed">
+  We design and build scalable web, mobile, and software solutions tailored to
+  your vision. From startups to enterprises, we transform ideas into powerful
+  digital products that drive growth and innovation.
+</p>
+
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-20">
             <button className="px-8 py-3 bg-gradient-to-r cursor-pointer from-violet-600 to-indigo-600 text-white rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/25 font-medium relative overflow-hidden group">
@@ -61,10 +65,10 @@ export const Hero = () => {
               <span className="absolute inset-0 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               <span className="absolute inset-0 backdrop-blur-md opacity-20"></span>
             </button>
-            <button className="px-8 py-3 bg-gray-800/50 cursor-pointer backdrop-blur-lg text-white rounded-xl transition-all duration-300 border border-gray-700/50 relative overflow-hidden group">
+            <Link target="_blank" href={"https://cal.com/princely-kweks"} className="px-8 py-3 bg-gray-800/50 cursor-pointer backdrop-blur-lg text-white rounded-xl transition-all duration-300 border border-gray-700/50 relative overflow-hidden group">
               <span className="relative z-10">Book a Demo</span>
               <span className="absolute inset-0 bg-gray-700/50 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
-            </button>
+            </Link>
           </div>
 
           <div className=" flex  -mt-14 ">

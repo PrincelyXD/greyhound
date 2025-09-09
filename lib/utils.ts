@@ -1,54 +1,54 @@
 export const workSteps = [
-    {
-      number: '01',
-      title: 'Onboard Your Team',
-      description:
-        'Set up your company profile and invite team members with role-specific permissions and dashboards.',
-    },
-    {
-      number: '02',
-      title: 'Configure Your Workflow',
-      description:
-        'Customize payment plans, commission structures, and document workflows to match your business processes.',
-    },
-    {
-      number: '03',
-      title: 'Connect Your Clients',
-      description:
-        'Add clients to the platform where they can track their purchases, payments, and document status.',
-    },
-    {
-      number: '04',
-      title: 'Manage Transactions',
-      description:
-        'Track deals from lead to close with automated workflows, payment processing, and commission disbursement.',
-    },
-  ]
+  {
+    number: '01',
+    title: 'Discover & Plan',
+    description:
+      'We start by understanding your vision, goals, and challenges to craft a clear roadmap for your digital product.',
+  },
+  {
+    number: '02',
+    title: 'Design & Prototype',
+    description:
+      'Our design team creates modern, intuitive UI/UX prototypes that bring your idea to life before development begins.',
+  },
+  {
+    number: '03',
+    title: 'Build & Develop',
+    description:
+      'We develop scalable, high-performing web, mobile, and software solutions using modern technologies and best practices.',
+  },
+  {
+    number: '04',
+    title: 'Launch & Scale',
+    description:
+      'Once deployed, we optimize, maintain, and scale your product to ensure it grows seamlessly with your business.',
+  },
+];
 
+export const useCases = [
+  {
+    title: "Growing Startups",
+    description:
+      "From MVPs to fully scalable platforms, we help startups bring their vision to life with modern, reliable, and high-performing solutions.",
+    image:
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+  },
+  {
+    title: "Established Businesses",
+    description:
+      "We transform outdated systems and build powerful digital products that streamline operations and drive growth.",
+    image:
+      "https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+  },
+  {
+    title: "Custom Enterprise Solutions",
+    description:
+      "For complex workflows and large teams, we craft tailor-made web, mobile, and software solutions that scale with your business needs.",
+    image:
+      "https://images.unsplash.com/photo-1519389950473-47ba0277781c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80",
+  },
+];
 
-  export const useCases = [
-    {
-      title: "Large Real Estate Agencies",
-      description:
-        "Manage hundreds of listings, dozens of agents, and complex commission structures with ease.",
-      image:
-        "https://images.unsplash.com/photo-1560520031-3a4dc4e9de0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    },
-    {
-      title: "Boutique Property Firms",
-      description:
-        "Deliver white-glove service with personalized client dashboards and detailed property insights.",
-      image:
-        "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    },
-    {
-      title: "New Development Sales",
-      description:
-        "Track construction progress, manage pre-sales, and handle complex phased payment schedules.",
-      image:
-        "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80",
-    },
-  ];
 
 
   export  const testimonials = [
