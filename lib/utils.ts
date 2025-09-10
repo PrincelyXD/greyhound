@@ -50,33 +50,34 @@ export const useCases = [
 ];
 
 
+export const testimonials = [
+  {
+    quote:
+      "Partnering with Greyhound was a game-changer for our startup. They took our idea from concept to a fully functioning product in record time, with clean code and a flawless user experience.",
+    author: "Sophia Martinez",
+    position: "Founder, LaunchPad Tech",
+    avatar:
+      "https://images.unsplash.com/photo-1502685104226-ee32379fefbe?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&q=80",
+  },
+  {
+    quote:
+      "Greyhound's team integrated seamlessly with ours, delivering a custom dashboard that transformed how we track data and interact with clients. Their attention to detail is unmatched.",
+    author: "David Kim",
+    position: "Head of Product, DataForge",
+    avatar:
+      "https://images.unsplash.com/photo-1595152772835-219674b2a8a6?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&q=80",
+  },
+  {
+    quote:
+      "We needed a scalable mobile app to handle rapid growth, and Greyhound delivered beyond our expectations. The app is fast, secure, and our users absolutely love it.",
+    author: "Amara Thompson",
+    position: "CEO, FitTrack Global",
+    avatar:
+      "https://images.unsplash.com/photo-1550525811-e5869dd03032?ixlib=rb-4.0.3&auto=format&fit=crop&w=256&q=80",
+  },
+];
 
-  export  const testimonials = [
-    {
-      quote:
-        'EstateOS has completely transformed how we manage our client relationships and payment processing. The role-specific dashboards make it easy for everyone to stay on the same page.',
-      author: 'Sarah Johnson',
-      position: 'CEO, Metropolitan Realty',
-      avatar:
-        'https://images.unsplash.com/photo-1494790108377-be9c29b29330?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-    },
-    {
-      quote:
-        "The commission tracking alone has saved us countless hours of manual calculations. Our agents love the transparency, and our accounting team can't imagine going back to spreadsheets.",
-      author: 'Michael Chen',
-      position: 'Operations Director, Horizon Properties',
-      avatar:
-        'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-    },
-    {
-      quote:
-        'As a boutique agency, we needed something flexible enough to accommodate our unique workflow. EstateOS delivered that and more, helping us compete with firms twice our size.',
-      author: 'Alexandra Rivera',
-      position: 'Founder, Luxe Home Collective',
-      avatar:
-        'https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=256&q=80',
-    },
-  ]
+
 
 
 

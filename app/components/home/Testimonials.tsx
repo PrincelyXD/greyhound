@@ -19,17 +19,18 @@ export const Testimonials = () => {
       {/* Background accent */}
       <div className="absolute right-0 bottom-0 w-96 h-96 bg-indigo-600/10 rounded-full filter blur-3xl opacity-30"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
-            <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-indigo-400 text-transparent bg-clip-text">
-              What Our Clients Say
-            </span>
-          </h2>
-          <p className="text-xl text-gray-300 max-w-3xl mx-auto">
-            Real estate professionals trust GreyHound Smart Systems to power
-            their business operations.
-          </p>
-        </div>
+      <div className="text-center mb-16">
+  <h2 className="text-3xl md:text-4xl font-bold mb-4 tracking-tight">
+    <span className="bg-gradient-to-r from-blue-400 via-violet-400 to-indigo-400 text-transparent bg-clip-text">
+      What Our Clients Say
+    </span>
+  </h2>
+  <p className="text-xl text-gray-300 max-w-3xl mx-auto">
+    Companies around the world trust Greyhound to design, build, and scale
+    cutting-edge web and mobile solutions that drive growth and innovation.
+  </p>
+</div>
+
         <div className="relative">
           <div className="max-w-3xl mx-auto  translate-y-8 transition-all duration-1000">
             <SpotlightCard

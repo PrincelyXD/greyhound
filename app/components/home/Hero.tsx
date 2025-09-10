@@ -20,7 +20,7 @@ export const Hero = () => {
       ></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 mt-10 lg:px-8 relative bg-[url('/lines.svg')] bg-cover bg-center">
         <div className="text-center ">
-        <span className="uppercase font-manrope block text-xs my-5 text-blue-400 tracking-[1px]">
+        <span className=" font-manrope block text-xs my-5 text-blue-400 tracking-[1px]">
   <Typewriter
     options={{
       strings: [

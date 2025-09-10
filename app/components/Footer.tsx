@@ -8,8 +8,7 @@ export const Footer = () => {
               <img src="/primary-logo.png" className="h-[90px]" alt="GREYHOUND LOGO" />
             </a>
             <p className="text-gray-300 mb-5 text-sm leading-relaxed">
-              The complete platform for modern real estate companies to
-              streamline operations and boost revenue.
+            The complete platform for modern businesses to build, launch, and scale cutting-edge web and mobile experiences.
             </p>
             <div className="flex space-x-4">
               <a

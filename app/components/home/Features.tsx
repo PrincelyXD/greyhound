@@ -51,18 +51,7 @@ export const Features = () => {
       description:
         'Streamlined team collaboration and client communication with role-based access and real-time updates.',
     },
-    {
-      icon: <LinkIcon size={24} className="text-blue-400" />,
-      title: 'Seamless Integrations',
-      description:
-        'Connecting your product to external APIs and services for payments, analytics, authentication, and more.',
-    },
-    {
-      icon: <FileTextIcon size={24} className="text-violet-400" />,
-      title: 'Documentation & Knowledge Base',
-      description:
-        'Organized and versioned documentation to keep your teams, clients, and stakeholders aligned and informed.',
-    },
+   
   ];
   
   return (
