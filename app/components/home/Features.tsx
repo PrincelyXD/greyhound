@@ -1,7 +1,6 @@
 
 import {
   Users2Icon,
-  LinkIcon,
   LayoutDashboardIcon,
   CodeIcon,
   SmartphoneIcon,

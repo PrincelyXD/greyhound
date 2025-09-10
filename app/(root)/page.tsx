@@ -1,6 +1,6 @@
 import { CTA } from "../components/CTA";
 import { Footer } from "../components/Footer";
-import { Pricing } from "../components/PricingSection";
+// import { Pricing } from "../components/PricingSection";
 import { Features } from "../components/home/Features";
 import { Hero } from "../components/home/Hero";
 import { HowItWorks } from "../components/home/HowItWorks";

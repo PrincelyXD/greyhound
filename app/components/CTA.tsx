@@ -22,7 +22,7 @@ export const CTA = () => {
 
   <p className="text-base md:text-xl text-gray-300 max-w-3xl mx-auto mb-10 leading-relaxed">
     Partner with Greyhound to design and develop powerful, scalable web and
-    mobile solutions. Whether you're a startup or an enterprise, we help you
+    mobile solutions. Whether you´re a startup or an enterprise, we help you
     create products that stand out and grow with your business.
   </p>
 
