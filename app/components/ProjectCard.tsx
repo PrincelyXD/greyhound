@@ -36,7 +36,7 @@ const ProjectCard = ({
           : "flex-col-reverse lg:flex-row"
       }  `}
     >
-      <div className=" relative block h-[400px] md:h-[500px] lg:h-[600px]   w-full lg:w-[60%] overflow-hidden  rounded-4xl ">
+      <div className=" relative block h-[300px] md:h-[500px] lg:h-[600px]   w-full lg:w-[60%] overflow-hidden  rounded-4xl ">
         <motion.div
           ref={imageRef}
           style={{
@@ -46,7 +46,7 @@ const ProjectCard = ({
         />
       </div>
       {/* md:h-[650px] */}
-      <div className=" project-card w-full  lg:w-[40%] h-[400px] md:h-[500px] lg:h-[600px] ">
+      <div className=" project-card w-full  lg:w-[40%] h-fit md:h-[500px] lg:h-[600px] ">
         <div className="pt-10 mb-20">
           <span className=" text-sm text-slate-200 font-semibold opacity-[0.8]">
             {projectField}
