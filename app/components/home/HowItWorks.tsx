@@ -24,7 +24,7 @@ export const HowItWorks = () => {
   </p>
 </div>
 
-        <img src="/metalic.png" className="absolute -right-40 h-[600px] animate-slow-bounce opacity-[0.5] " alt="" />
+        <img src="/metalic.png" className="absolute -right-0 h-[300px] md:h-[600px] animate-slow-bounce opacity-[0.5] " alt="" />
         <div
        
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"

@@ -1,4 +1,7 @@
 "use client";
+
+import Link from "next/link";
+
 // import Threads from "../blocks/Backgrounds/Threads/Threads";
 
 export const CTA = () => {
@@ -35,10 +38,10 @@ export const CTA = () => {
     </button>
 
     {/* Secondary CTA */}
-    <button className="px-8 py-4 bg-gray-800/50 backdrop-blur-lg text-white rounded-lg transition-all duration-300 text-lg border border-gray-700/50 relative overflow-hidden group">
+    <Link href={"https://cal.com/princely-kweks"} className="px-8 py-4 bg-gray-800/50 backdrop-blur-lg text-white rounded-lg transition-all duration-300 text-lg border border-gray-700/50 relative overflow-hidden group">
       <span className="relative z-10">Book a Discovery Call</span>
       <span className="absolute inset-0 bg-gray-700/50 rounded-lg group-hover:opacity-100 transition-opacity duration-300"></span>
-    </button>
+    </Link>
   </div>
 
   {/* Trusted By Section */}

@@ -61,7 +61,7 @@ export const Hero = () => {
 
           <div className="flex flex-col sm:flex-row justify-center gap-4 mb-20">
             <button className="px-8 py-3 bg-gradient-to-r cursor-pointer from-violet-600 to-indigo-600 text-white rounded-xl transition-all duration-300 hover:shadow-lg hover:shadow-violet-500/25 font-medium relative overflow-hidden group">
-              <span className="relative z-10">Get Started Free</span>
+              <span className="relative z-10">Get Started</span>
               <span className="absolute inset-0 bg-gradient-to-r from-violet-500 to-indigo-500 rounded-md opacity-0 group-hover:opacity-100 transition-opacity duration-300"></span>
               <span className="absolute inset-0 backdrop-blur-md opacity-20"></span>
             </button>

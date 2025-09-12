@@ -60,10 +60,10 @@ export const Navigation = () => {
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-400 group-hover:w-full transition-all duration-300"></span>
             </a>
             <a
-              href="#pricing"
+              href="#projects"
               className="text-gray-300 hover:text-white transition-colors relative group"
             >
-              Pricing
+              Projects
               <span className="absolute -bottom-1 left-0 w-0 h-0.5 bg-violet-400 group-hover:w-full transition-all duration-300"></span>
             </a>
           </nav>
@@ -101,10 +101,10 @@ export const Navigation = () => {
               How It Works
             </a>
             <a
-              href="#pricing"
+              href="#projects"
               className="block px-3 py-2 text-gray-300 hover:text-white"
             >
-              Pricing
+              Projects
             </a>
             <div className="pt-4 pb-3 border-t border-gray-800/30">
               <button className="block w-full px-3 py-2 text-gray-300 hover:text-white text-left">
